@@ -11,7 +11,15 @@
 ## Step 4:  Create the logout.jsp page
 ![image](https://github.com/pstfreelancer/session-management/assets/95127058/08e35ed5-f938-43f2-be62-54af700cf656)
 
-## Step 5 : Test the application
+## Step 5: Test the application
 
+## ------------------------------------------------------------------------------------
 
+### Note: If we were using an old browser then use the following header:
+```
+response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");//HTTP 1.1
 
+response.setHeader("Pragma","no-cache");//HTTP 1.0
+response.setHeader("Expires","0");//Proxies
+
+```
